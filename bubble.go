@@ -1,9 +1,7 @@
-package bubble
+package main
 
-func Bubble(arr []int) int {
-	nIter := 0
+func Bubble(arr []int) {
 	for {
-		nIter++
 		changes := 0
 		for i := 1; i < len(arr); i++ {
 			if arr[i-1] > arr[i] {
@@ -12,7 +10,7 @@ func Bubble(arr []int) int {
 			}
 		}
 		if changes == 0 {
-			return nIter
+			return
 		}
 	}
 }

@@ -1,4 +1,4 @@
-package quick
+package main
 
 func Quick(arr []int) {
 	if len(arr) < 2 {
