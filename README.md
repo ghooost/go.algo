@@ -1,11 +1,15 @@
 # Algorithms in Go
 
-Just for fun and go practice
+Just for fun and golang practice
+## Run
 
-# Tests
+    go run .
 
-go test
+It will run a tiny CLI with available commands list
+## Tests
 
-# Benchmarks
+    go test
 
-go test -bench=. -benchmem
+## Benchmarks
+
+    go test -bench=. -benchmem
